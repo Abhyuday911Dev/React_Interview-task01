@@ -10,14 +10,14 @@ const App = () => {
         <div className="leftInput">
           <input type="text" />
         </div>
-        <a href="#">Dashboard</a>
-        <a href="#">Dashboard</a>
-        <a href="#">Dashboard</a>
-        <a href="#">Dashboard</a>
-        <a href="#">Dashboard</a>
+        <Link to={"/"} href="#">Dashboard</Link>
+        <Link to={"/h"}>Profile</Link>
+        <Link to={"/h"}>Home</Link>
+        <Link to={"/h"}>Dashboard</Link>
+        <Link to={"/h"}>Dashboard</Link>
         <hr className="lhr" />
-        <a href="#">Dashboard</a>
-        <a href="#">Dashboard</a>
+        <Link to={"/h"}>Dashboard</Link>
+        <Link to={"/h"}>Dashboard</Link>
       </div>
       <div className="right">
         <div className="rtop">
