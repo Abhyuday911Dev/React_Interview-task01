@@ -1,6 +1,6 @@
 @font-face {
     font-family: gilroy;
-    src: url(gilroy.ttf)format("truetype");
+    src: url(./gilroy.ttf)format("truetype");
 }
 
 * {
@@ -23,6 +23,7 @@ body {
     height: 100vh;
     width: 100%;
     display: flex;
+    overflow: hidden;
 }
 
 .slide {
