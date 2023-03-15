@@ -11,7 +11,7 @@ const Home = () => {
         </div>
         <Link to={"/"} href="#">Dashboard</Link>
         <Link to={"/profile"}>Profile</Link>
-        <Link to={"/h"}>Home</Link>
+        <Link to={"/Cars"}>Cars</Link>
         <Link to={"/h"}>Dashboard</Link>
         <Link to={"/h"}>Dashboard</Link>
         <hr className="lhr" />
