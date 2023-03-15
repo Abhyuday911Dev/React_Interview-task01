@@ -60,9 +60,10 @@ body {
 .leftInput input {
     border: 0;
     background-color: #555;
-    padding: 0.9vmax 1vmax;
+    padding: 0.5vmax 1vmax;
     width: 100%;
     border-radius: 5px;
+    font-size: 25px;
 }
 
 a {
@@ -98,6 +99,7 @@ a {
     display: flex;
     align-items: center;
     gap: 30px;
+    cursor: pointer;
 }
 
 .prodivcirc {
@@ -198,4 +200,13 @@ a {
     height: 100%;
     background-color: #272727;
     border-radius: 20px;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex h1{
+    font-size: 5vw;
 }
